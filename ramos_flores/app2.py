@@ -1,4 +1,6 @@
 import libreria
+# EN ESTE MENU PODRAN ELEGIR VARIAS OPCIONES Y TAMBIEN REALIZAR SU BOLETA DE
+# DE CONSUMO
 def sabores():
     pass
 def combinados():
@@ -26,3 +28,4 @@ while(opc!=max):
         mostrar_boleta()
 
 print("PROGRAMA FINALIZADO")
+# FIN MENU

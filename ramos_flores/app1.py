@@ -1,5 +1,5 @@
 import libreria
-
+# ESTE TIPO DE MENU PERMITIRA LA OPCION DE AGREGAR NOTAS Y SACAR SU PROMEDIO
 def agregarnota():
     pass
 def promedio():
