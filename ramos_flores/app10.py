@@ -19,7 +19,7 @@ while(opc!=max):
     print("# 4.SALIR               #")
     print("#########################")
     # ELECCION DE LA OPCION DEL MENU
-    opc=libreria.pedir_numero("ingrese opcion:",1,3)
+    opc=libreria.pedir_numero("ingrese opcion:",1,4)
     # MAPEO DE LAS OPCIONES
     if(opc==1):
         pedir_polos()

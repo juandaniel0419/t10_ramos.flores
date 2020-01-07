@@ -21,5 +21,6 @@ while(opc!=max):
         agregarnota()
     if(opc==2):
         promedio()
-# fin menu
+
 print("Programa Finalizado")
+# fin menu
