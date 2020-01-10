@@ -136,3 +136,19 @@ def pedir_curso(msg):
     while(validar_curso(curso)==False):
         curso=input(msg)
     return curso
+
+
+def validar_nivel(nivel):
+    if(isinstance(nivel,str)):
+        if(nivel=="principiante" or nivel=="intermedio" or nivel=="avanzado"):
+            return  True
+        else:
+            return False
+    else:
+        return False
+
+def pedir_nivel(msg):
+    nivel=""
+    while(validar_nivel(nivel)==False):
+        nivel=input(msg)
+    return nivel

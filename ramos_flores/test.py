@@ -32,3 +32,14 @@ assert (libreria.validar_curso("hola")==False)
 assert (libreria.validar_curso("fisica")==True)
 print("validar curso -> ok")
 
+
+assert (libreria.validar_nivel("intermedio")==True)
+assert (libreria.validar_nivel(1)==False)
+assert (libreria.validar_nivel("hola")==False)
+assert (libreria.validar_nivel("avanzado")==True)
+print("validar nivel -> ok")
+
+
+
+
+
