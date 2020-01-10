@@ -40,6 +40,13 @@ assert (libreria.validar_nivel("avanzado")==True)
 print("validar nivel -> ok")
 
 
+assert (libreria.validar_carrera("ingenieria civil")==True)
+assert (libreria.validar_carrera("ingenieria electronica")==True)
+assert (libreria.validar_carrera("ingenieria enferneiro")==False)
+assert (libreria.validar_carrera("ingenieria de sistemas")==True)
+print("validar carrera -> ok")
+
+
 
 
 

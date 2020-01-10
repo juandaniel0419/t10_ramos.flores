@@ -152,3 +152,23 @@ def pedir_nivel(msg):
     while(validar_nivel(nivel)==False):
         nivel=input(msg)
     return nivel
+
+
+def validar_carrera(carrera):
+    if(isinstance(carrera,str)):
+        if(carrera=="ingenieria civil" or carrera=="ingenieria mecanica" or carrera=="ingenieria electronica" or carrera=="ingenieria de sistemas" or carrera=="ingenieria agricola" or carrera=="ingenieria indrustrial"
+        or carrera=="medicina" or carrera=="contabilidad" or carrera=="administracion"or carrera=="derecho" or carrera=="comercio" or carrera=="enfermeria" or carrera=="ingenieria computacion e informatica" or carrera=="ingenieria mecanica"
+        or carrera=="comunicacion" or carrera=="educacion" or carrera=="arquitectura" or carrera=="medicina veterinaria" or carrera=="agronomia" or
+        carrera=="marketing"):
+            return True
+        else:
+            return False
+    else:
+        return False
+def pedir_carrera(msg):
+    carrera=""
+    while(validar_carrera(carrera)==False):
+        carrera=input(msg)
+    return carrera
+
+
