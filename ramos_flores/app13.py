@@ -53,7 +53,7 @@ def mostrar_u():
     opc = 0
     max = 3
     while (opc != max):
-        print("#### mostrar carreras####")
+        print("#### mostrar universidades ####")
         print("# 1. universidades nacionales")
         print("# 2. universidades particulares")
         print("# 3. salir")
