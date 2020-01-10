@@ -1,11 +1,14 @@
 import libreria
 
 def pedir_arroz():
-    pass
+    plato=libreria.pedir_numero("ingrese numero de platos de arroz con pollo:",1,30)
+    print("se ordeno el plato",plato)
 def pedir_ceviche():
-    pass
+    plato = libreria.pedir_numero("ingrese numero de platos de ceviche:", 1, 30)
+    print("se ordeno el plato", plato)
 def pedir_lomo():
-    pass
+    plato = libreria.pedir_numero("ingrese numero de platos de lomo saltado:", 1, 30)
+    print("se ordeno el plato", plato)
 
 # ESTE PROGRAMA MUESTRA EL MENU DE UN RESTAURANT
 # ESTE MENU TENDRA 4 OPCIONES

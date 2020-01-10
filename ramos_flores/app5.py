@@ -2,11 +2,15 @@ import libreria
 # MENU DE UTILES
 # EL MENU MOSTRARA 4 OPCCIONES QUE DEBERAN ELEGIR CON LOS NUMEROS(1-4)
 def pedir_cuadernos():
-    pass
-def pedir_mochilas():
-    pass
+    cuaderno=libreria.pedir_cuaderno("ingrese marca del cuaderno que desea:")
+    print("usted ha elegido",cuaderno)
+
+def pedir_mochila():
+    mochila=libreria.pedir_mochila("ingrese la marca del la mochila que desea:")
+    print("usted ha elegido",mochila)
 def pedir_lapiceros():
-    pass
+    lapicero=libreria.pedir_lapicero("ingrese la marca del lapicero que desea:")
+    print("usted ha elegido",lapicero)
 
 opc=0
 max=4
@@ -22,7 +26,7 @@ while(opc!=max):
     if(opc==1):
         pedir_cuadernos()
     if(opc==2):
-        pedir_mochilas()
+        pedir_mochila()
     if(opc==3):
         pedir_lapiceros()
 print("FIN DEL MENU")

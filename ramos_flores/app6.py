@@ -1,9 +1,15 @@
 import libreria
 
 def jugar_fifa():
-    pass
+    c=libreria.pedir_numero("ingrese numero de camiseta:",1,100)
+    j=libreria.pedir_nombre("ingrese nombre del jugador:")
+    print("datos guardados","el jugador",j,"tien la camiseta #",c)
+
 def jugar_pez():
-    pass
+    c = libreria.pedir_numero("ingrese numero de camiseta:", 1, 100)
+    j = libreria.pedir_nombre("ingrese nombre del jugador:")
+    print("datos guardados", "el jugador", j, "tiene la camiseta #", c)
+
 # ESTE ES UN MENU DE JUEGO QUE CONTIENE DOS JUEGOS DE FUTBOL
 opc=0
 max=3

@@ -1,10 +1,13 @@
 import libreria
 def comprar_sam():
-    pass
+    s=libreria.pedir_nombre("ingrese nombre del comprador:")
+    print("el cliente",s," comprado un celular samsug")
 def comprar_huw():
-    pass
+    s = libreria.pedir_nombre("ingrese nombre del comprador:")
+    print("el cliente", s, " comprado un celular huawei")
 def comprar_app():
-    pass
+    s = libreria.pedir_nombre("ingrese nombre del comprador:")
+    print("el cliente", s, " comprado un celular apple")
 # AQUEL MENU MUESTRA LA LISTA DE TRES MARCAS DE CELULARES
 # EL USUARIO TENDRA CUAL ES SU MARCA FAVORITA DESPUES LE APARECERAN LOS MODELOS DE LA MARCA ESCOGIDA
 

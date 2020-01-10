@@ -1,8 +1,13 @@
 import libreria
 def academia():
-    pass
+    a=libreria.pedir_nombre("ingrese nombre que desea matricular:")
+    e=libreria.pedir_numero("ingrese edad :",0,100)
+    print("SE HA MATRICULADO EL ALUMN@",a,"de edad",e,"en la academia gajel")
 def universidad():
-    pass
+    a = libreria.pedir_nombre("ingrese nombre que desea matricular:")
+    e = libreria.pedir_numero("ingrese edad :",0,100)
+    print("SE HA MATRICULADO EL ALUMN@", a, "de edad", e, "en la univerisidad UNPRG")
+
 # ESTE MENU TRAE DOS OPCIONES ENTRE ACADEMIA PARA LOS QUE QUIEREN UNA NACIONAL
 # Y UNIVERSIDAD PARA LOS QUE QUIEREN UNA PARTICULAR
 opc=0

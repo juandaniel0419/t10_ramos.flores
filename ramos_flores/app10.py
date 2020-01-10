@@ -1,10 +1,16 @@
 import libreria
 def pedir_polos():
-    pass
+    c=libreria.pedir_numero("ingrese numero de polos que desea comprar:",1,1000)
+    n=libreria.pedir_nombre("ingrese nombre del cliente:")
+    print("el cliente",n,"ha comprado",c,"de polos")
 def pedir_pantalones():
-    pass
+    c = libreria.pedir_numero("ingrese numero de pantalones que desea comprar:", 1, 1000)
+    n = libreria.pedir_nombre("ingrese nombre del cliente:")
+    print("el cliente", n, "ha comprado", c, "de pantalones")
 def pedir_zapatillas():
-    pass
+    c = libreria.pedir_numero("ingrese numero de pares de zapatillas que desea comprar:", 1, 1000)
+    n = libreria.pedir_nombre("ingrese nombre del cliente:")
+    print("el cliente", n, "ha comprado", c, "de pares de zapatillas")
 
 # ESTE MENU TENDRA TRES OPCIONES LAS CUALES SERAN TRES TIPICAS DE PRENDAS DE VESTIDO
 # ELEGIR UNA OPCION ASEMEJA UNA COMPRA  (cantidad/tipios)
