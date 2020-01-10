@@ -1,0 +1,10 @@
+ing.civil
+ing.electronica
+ing.computacion e informatica
+ing.agricola
+ing.mecanica
+ing.sistemas
+ing.zootecnia
+ing.minas
+ing.indrustial
+ing.indrustias alimenticias
